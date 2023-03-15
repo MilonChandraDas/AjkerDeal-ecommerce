@@ -1,0 +1,149 @@
+:root {
+  --primary: #ff8c00;
+  --secondary: #ebebeb;
+  --ternary: #77787b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBg {
+  background: var(--ternary);
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.navBtn {
+  margin-left: 15px;
+  padding: 0 10px;
+  background: var(--ternary);
+  border: none;
+  color: white;
+  transition: all linear 0.3s;
+}
+
+.navBtn:hover {
+  background: white;
+  color: black;
+}
+/* NAVBAR END */
+
+/* HEARDER START */
+.header {
+  height: 100px;
+}
+.logo {
+  width: 110px;
+}
+
+.cart {
+  width: 60px;
+}
+
+/* HEARDER END */
+
+/* BANNER STAT */
+.bannerBg {
+  background: url(../images/banner1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menuBtn {
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 0;
+  transition: all linear 0.2s;
+}
+.menuBtn:hover {
+  background: var(--primary);
+}
+
+/* BANNER END */
+
+/* HOT DEAL STAT */
+a {
+  color: var(--primary);
+}
+
+.commonBtn {
+  background: var(--primary);
+  color: white;
+  padding: 3px 25px;
+  border: none;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+.commonBtn:hover {
+  background: var(--ternary);
+  color: white;
+}
+.yo {
+  background: darksalmon;
+  padding: 0;
+}
+
+.cartImg {
+  width: 100px;
+}
+
+.offerPrice {
+  color: #ee4b2b;
+  text-decoration: line-through;
+}
+
+.wrapping {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardImg {
+  width: 130px;
+  align-items: center;
+}
+
+.wrapping {
+  flex-wrap: wrap;
+}
+/* HOT DEAL END */
+
+.headerBg {
+  background: var(--secondary) !important;
+}
+
+.cardBodyBg {
+  background: var(--ternary);
+}
+
+.info {
+  border-radius: 5px;
+  border: 1px solid var(--secondary);
+  padding: 30px;
+}
+.info h6 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.info p {
+  color: #757575;
+}
+
+.footBg {
+  background: var(--ternary) !important;
+}
+/* .serachIcon {
+  color: black !important;
+} */
+/* BANNER STAT */
+
+/* BANNER END */
