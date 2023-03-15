@@ -139,7 +139,45 @@ a {
 }
 
 .footBg {
-  background: var(--ternary) !important;
+  background: #404040 ;
+}
+
+.footColOne h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.footColOne p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+.footColTwo h6{
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.footColTwo p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+.footColthree h6{
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.footColfour h6{
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.footColfour p{
+ margin-bottom: 0;
+  font-size: 12px;
+  color: white;
 }
 /* .serachIcon {
   color: black !important;
